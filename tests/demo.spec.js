@@ -6,6 +6,8 @@ test('DemoQA Radio Checkbox Button', async ({ page }) => {
 
     await page.locator("//input[@id='yesRadio']").click();
 
+    await page.waitForTimeout(3000);
+
     // await page.locator("//div[@id='app']/descendant::label[@for='impressiveRadio']").click();
 
     // await page.locator("//div[@id='app']/descendant::label[@for='noRadio']").click();

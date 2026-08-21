@@ -24,6 +24,5 @@ test ('Create browser, context and page', async() => {
     console.log(await page1.title());
     console.log(await page2.title());
     console.log(await page3.title());
-    console.log(await page4.title());
-    console.log(await page5.title());
+    
 });
